@@ -304,8 +304,16 @@ body{
     position: fixed;
     bottom: 60px;
     left: 46%;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(43, 43, 43);
     color: white;
     padding: 12px 22px;
-    border-radius: 21px;
+    border-radius: 21px; 
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.fixed-button svg{
+    margin-bottom: -3px;
 }
