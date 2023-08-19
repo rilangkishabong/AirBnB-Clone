@@ -317,3 +317,27 @@ body{
 .fixed-button svg{
     margin-bottom: -3px;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 510px;    
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+    color: black;
+
+}
+
+.footer .left{
+
+}
