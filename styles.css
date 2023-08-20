@@ -26,6 +26,7 @@ body {
     .logo {
         filter: invert(50%) sepia(58%) saturate(7495%) hue-rotate(330deg) brightness(103%) contrast(101%);
         height: 40px;
+        cursor: pointer;
     }
 
     .header-nav {
@@ -46,6 +47,7 @@ body {
         height: 30px;
         background-color: transparent;
         color: lightgray;
+        cursor: pointer;
     }
 
 
@@ -67,6 +69,7 @@ body {
         border-radius: 50%;
         margin-left: -20%;
         margin-top: 2px;
+        cursor: pointer;
     }
 
     .profile {
@@ -81,6 +84,8 @@ body {
         margin: 0;
         font-weight: 500;
         font-size: 14px;
+        cursor: pointer;
+
     }
 
     .menu-img-ham {
@@ -88,11 +93,20 @@ body {
         border: 1px solid lightgray;
         border-radius: 50px;
         padding: 13px 50px 13px 10px;
+        cursor: pointer;
+
+    }
+
+    .menu-globle{
+        cursor: pointer;
+
     }
 
     .menu-img-account {
         height: 30px;
         margin-left: -65px;
+        cursor: pointer;
+
     }
 
     .menu-img {
@@ -113,6 +127,7 @@ body {
         flex-direction: column;
         justify-content: center;
         padding: 10px 10px 10px 0;
+        cursor: pointer;
     }
 
     .slider-link img {
@@ -136,14 +151,19 @@ body {
         background-color: black;
     }
 
+    #active-link{
+        cursor:default;
+    }
+
     .arrow-right {
-        height: 13px;
+        height:25px;
         border: 1px solid #808080;
         border-radius: 50%;
         padding: 6px;
         /* margin-bottom: 16px;
     margin-left: 40px; */
         margin: 0 40px 16px 40px;
+        cursor: pointer;
     }
 
     .filters {
@@ -154,6 +174,7 @@ body {
         border-radius: 14px;
         margin: 0 0 16px 40px;
         gap: 7px;
+        cursor: pointer;
     }
 
     .filter-img {
@@ -200,11 +221,13 @@ body {
 
     .toggle-parent {
         display: flex;
+        cursor: pointer;
+
     }
 
     .toggle-container {
-        width: 27px;
-        height: 8px;
+        width: 47px;
+        height: 31px;
         padding: 12px 10px;
         background-color: darkgrey;
         border-radius: 17px;
@@ -231,7 +254,8 @@ body {
         width: 350px;
         height:280px;
         padding: 10px;
-        margin: 45px 0;
+        margin: 55px 0;
+        cursor: pointer;
     }
 
     .content {
@@ -307,6 +331,7 @@ body {
         width: 6px;
         background-color: rgb(180, 180, 180);
         border-radius: 50%;
+
     }
 
     .carousel-dots #current-img {
@@ -453,12 +478,13 @@ body {
         width: 100%;
     }
 
-    .slider-link {
+     .slider-link {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
         padding: 10px 10px 10px 0;
+        cursor: pointer;
     }
 
     .slider-link img {
@@ -475,6 +501,10 @@ body {
     .slider-link #active {
         color: black;
     }
+
+    /* #active-link{
+        cursor: none;
+    } */
 
     .active {
         width: 35px;
